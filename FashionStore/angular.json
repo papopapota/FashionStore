@@ -37,6 +37,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/FashionStore/",
               "budgets": [
                 {
                   "type": "initial",
