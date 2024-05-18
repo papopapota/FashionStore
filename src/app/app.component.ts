@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { IndexComponent } from './index/index.component';
 import { NavbarComponentComponent } from './navbar-component/navbar-component.component';
 import { ListProductsComponent } from './list-products/list-products.component';
-
+import { CategoriesGigantComponent } from './categories-gigant/categories-gigant.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,8 @@ import { ListProductsComponent } from './list-products/list-products.component';
   imports: [RouterOutlet ,
     IndexComponent,
     NavbarComponentComponent,
-    ListProductsComponent
+    ListProductsComponent,
+    CategoriesGigantComponent
     
   ],
   templateUrl: './app.component.html',
