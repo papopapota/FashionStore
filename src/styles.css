@@ -71,3 +71,11 @@ border-radius: 10px;
 mt-negative1{
     margin-top: -2em;
 }
+
+.min-vh-50 {
+    min-height: 50vh !important;
+  }
+
+.w-90{
+    width: 90%;
+}

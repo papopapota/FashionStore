@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './categories-gigant.component.html',
-  styleUrl: './categories-gigant.component.css'
+  styleUrls: ['./categories-gigant.component.css']
 })
 export class CategoriesGigantComponent {
 

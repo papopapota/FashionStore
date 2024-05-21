@@ -4,6 +4,8 @@ import { IndexComponent } from './index/index.component';
 import { NavbarComponentComponent } from './navbar-component/navbar-component.component';
 import { ListProductsComponent } from './list-products/list-products.component';
 import { CategoriesGigantComponent } from './categories-gigant/categories-gigant.component';
+import { ValuesAndBlogComponent } from './values-and-blog/values-and-blog.component';
+
 
 @Component({
   selector: 'app-root',
@@ -12,7 +14,8 @@ import { CategoriesGigantComponent } from './categories-gigant/categories-gigant
     IndexComponent,
     NavbarComponentComponent,
     ListProductsComponent,
-    CategoriesGigantComponent
+    CategoriesGigantComponent,
+    ValuesAndBlogComponent
     
   ],
   templateUrl: './app.component.html',
