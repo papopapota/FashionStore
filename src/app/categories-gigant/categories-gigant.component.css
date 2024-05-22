@@ -4,3 +4,16 @@
 .mt-n1{
     margin-top: -8em !important;
 }
+
+@media (max-width:1766px) {
+    .mt-n1{
+        margin-top: -2em !important;
+    }
+}
+
+
+@media (max-width:1292px) {
+    .mt-n1{
+        margin-top: -0em !important;
+    }
+}

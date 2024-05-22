@@ -10,7 +10,7 @@
     <nav class=" py-0 mx-2  navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
           <img height="40em" src="assets/images/ClothyWomanLogo.png">
-          <a class="  fs-5  m-1 navbar-brand" href="#">Clothy <br> Woman</a>
+          <a class="  fs-5  m-1 navbar-brand" href="#">Clothy <br class="nav-item-hide"> Woman</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,23 +36,44 @@
               
 
             </ul>
-            <div class="">
-              <span>EUR €</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="2.2em" height="2.2em" fill="currentColor" class=" px-1 mx-2 bi bi-person" viewBox="0 0 16 16">
-                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
-              </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" width="2.2em" height="2.2em" fill="currentColor" class=" px-1 mx-2 bi bi-heart" viewBox="0 0 16 16">
-                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
-              </svg>
-              <button type="button" class="btn  position-relative">
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">+1 <span class="visually-hidden">unread messages</span></span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="2.2em" height="2.2em" fill="currentColor" class=" px-1 mx-2 bi bi-lock" viewBox="0 0 16 16">
-                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"/>
-                </svg>
-              </button>
-              
+            <ul class="navbar-nav ">
+              <li class="nav-item d-flex align-items-center ">
+                <span>EUR €</span>
+              </li>
+              <li class="nav-item">      
+                <a class="nav-link active link-dark d-flex align-items-center " href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="2.2em" height="2.2em" fill="currentColor" class=" px-1 mx-2 bi bi-person nav-item-hide " viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg>
+                  <span class="nav-item-show">User</span>
+                </a>        
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active link-dark d-flex align-items-center" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="2.2em" height="2.2em" fill="currentColor" class=" px-1 mx-2 bi bi-heart nav-item-hide" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                  <span class="nav-item-show">Favorites</span>
+                </a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active link-dark d-flex align-items-center" href="#">
+                  <button type="button" class="btn px-0  position-relative">
+                  <span class="nav-item-show">Notifications</span>
 
-            </div>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">+1 <span class="visually-hidden nav-item-hide">unread messages</span></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2.2em" height="2.2em" fill="currentColor" class=" px-1 mx-2 bi bi-lock nav-item-hide" viewBox="0 0 16 16">
+                      <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"/>
+                    </svg>
+                  </button>
+
+                </a>
+              </li>
+
+            </ul>
+             
+
           </div>
           
         </div>
