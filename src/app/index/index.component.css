@@ -73,6 +73,20 @@ color: #000000;
   
   }
 
+  @media (min-width:990px) {
+    .item-show{
+        display: none;
+    }
+
+}
+
+@media (max-width:990px) {
+    .item-hide{
+        display: none;
+    }
+
+}
+
 
 @media (min-width: 1400px) {
     .row-cols-lg-7 > * {

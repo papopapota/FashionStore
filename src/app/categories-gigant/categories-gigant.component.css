@@ -12,8 +12,46 @@
 }
 
 
-@media (max-width:1292px) {
+@media (max-width:1440px) {
     .mt-n1{
         margin-top: -0em !important;
     }
+    .fs-1{
+        font-size: 2.1em !important;
+    }
+}
+
+@media (max-width:1240px) {
+   
+    .fs-1{
+        font-size: 1.5em !important;
+    }   
+    .btn-lg{
+        padding: 0.5em 1.5em !important;
+        font-size: 1em;
+    }  
+}
+
+
+
+@media (max-width:900px) {
+   
+    .row-cols-sm-2 > * {
+        flex: 0 0 auto;
+        width: 50%;
+      }
+      .fs-1{
+        font-size: 1.2em !important;
+    }  
+}
+@media (max-width:590px) {
+   .mt-4{
+    margin-top: 0em;
+   }
+    
+      .btn-lg{
+        white-space: nowrap;
+        padding: 0.5em 1.5em !important;
+        font-size: 1em;
+    }  
 }
