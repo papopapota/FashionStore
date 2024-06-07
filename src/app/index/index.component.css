@@ -50,6 +50,23 @@ color: #000000;
 
 }
 
+@media (max-width:646px) {
+
+    .fs-1{
+        font-size: 2.2em !important;
+    }
+
+}
+
+@media (max-width:460px) {
+
+    .fs-1{
+        font-size: 1.7em !important;
+    }
+
+}
+
+
 @media (max-width:992px) {
     .item-hide{
         display: none;

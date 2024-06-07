@@ -17,3 +17,12 @@ height: 90%;
     }
 
 }
+
+@media  (max-width:460px) {
+    .position-absolute{
+        position: initial !important;
+    }
+    #exploreCollectionsButton{
+        padding: 1em 1em !important;
+    }
+}

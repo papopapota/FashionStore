@@ -5,7 +5,8 @@ import { NavbarComponentComponent } from './navbar-component/navbar-component.co
 import { ListProductsComponent } from './list-products/list-products.component';
 import { CategoriesGigantComponent } from './categories-gigant/categories-gigant.component';
 import { ValuesAndBlogComponent } from './values-and-blog/values-and-blog.component';
-
+import { ReviewsComponent } from './reviews/reviews.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,9 @@ import { ValuesAndBlogComponent } from './values-and-blog/values-and-blog.compon
     NavbarComponentComponent,
     ListProductsComponent,
     CategoriesGigantComponent,
-    ValuesAndBlogComponent
+    ValuesAndBlogComponent,
+    ReviewsComponent,
+    FooterComponent
     
   ],
   templateUrl: './app.component.html',

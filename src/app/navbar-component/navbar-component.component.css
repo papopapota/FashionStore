@@ -27,3 +27,22 @@ background: #000000;
 }
 
 
+@keyframes moverTexto {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (max-width:900px) {
+    .texto-en-movimiento {
+        display: inline-block;
+        white-space: nowrap;
+        animation: moverTexto 15s linear infinite;
+      }
+
+}
+  
+ 

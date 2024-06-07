@@ -1,0 +1,19 @@
+.form-inputs {
+    position: relative;
+    height: 5em;
+}
+.form-inputs input {
+    padding-right: 2em; /* adjust this value to fit the icon */
+    padding-left: 2em;
+    font-size: 1.3em;
+}
+.form-inputs img {
+    position: absolute;
+    right: 1em; /* adjust this value to fit the icon */
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto; /* adjust this value to fit the icon */
+    height: 3em; /* adjust this value to fit the icon */
+    cursor: pointer;
+   
+}

@@ -1,0 +1,19 @@
+@media (max-width:590px) {
+    .row-cols-sm-1 > * {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+      .body-text{
+        font-size: 1em;
+      }
+
+
+}
+@media (max-width:1600px) {
+  
+  
+  #image-values{
+
+  }
+
+}
